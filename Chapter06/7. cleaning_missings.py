@@ -31,11 +31,9 @@ schoolrecord.shape
 schoolrecord.isnull().sum(axis=1).value_counts().sort_index()
 
 # assign mean values to missings
-schoolrecord.gpaoverall.mean()
+int(schoolrecord.gpaoverall.mean())
 schoolrecord.gpaoverall.isnull().sum()
-schoolrecord.gpaoverall.\
-  fillna(schoolrecord.gpaoverall.\
-  mean(), inplace=True)
+schoolrecord.gpaoverall.fillna(int(schoolrecord.gpaoverall.mean()), inplace=True)
 schoolrecord.gpaoverall.isnull().sum()
 
 # use forward fill
