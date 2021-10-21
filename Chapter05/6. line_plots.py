@@ -14,7 +14,8 @@ coviddaily = pd.read_csv("data/coviddaily720.csv", parse_dates=["casedate"])
 coviddaily.sample(2, random_state=1).T
 
 # calculate new cases and deaths by day
-coviddailytotals = coviddaily.loc[coviddaily.casedate.between('2020-02-01','2020-07-12')].\
+coviddailytotals = coviddaily.loc[coviddaily.casedate.\
+  between('2020-02-01','2020-07-12')].\
   groupby(['casedate'])[['new_cases','new_deaths']].\
   sum().\
   reset_index()
