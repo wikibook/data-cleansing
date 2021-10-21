@@ -1,0 +1,14 @@
+pandas
+pymssql
+mysql-connector-python
+pyreadstat
+pyreadr
+rpy2
+pyarrow
+openpyxl
+requests
+msgpack
+statsmodels
+seaborn
+pyod
+scikit-learn
