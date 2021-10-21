@@ -11,4 +11,4 @@ msgpack
 statsmodels
 seaborn
 pyod
-sklearn
+scikit-learn
