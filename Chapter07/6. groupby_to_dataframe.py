@@ -8,7 +8,8 @@ coviddaily = pd.read_csv("data/coviddaily720.csv", parse_dates=["casedate"])
 ltbrazil = pd.read_csv("data/ltbrazil.csv")
 
 # convert covid data from one country per day to summary values across all countries per day
-coviddailytotals = coviddaily.loc[coviddaily.casedate.between('2020-02-01','2020-07-12')].\
+coviddailytotals = coviddaily.loc[coviddaily.casedate.\
+  between('2020-02-01','2020-07-12')].\
   groupby(['casedate'], as_index=False)[['new_cases','new_deaths']].\
   sum()
 
