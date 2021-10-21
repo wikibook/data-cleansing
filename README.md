@@ -1,6 +1,6 @@
-# 파이썬 데이터 클렌징 쿡북
+# 파이썬 데이터 클리닝 쿡북
 
-[파이썬 데이터 클렌징 쿡북](https://wikibook.co.kr/data-cleansing/)(원제: Python Data Cleaning Cookbook)의 예제 코드 저장소입니다.
+[파이썬 데이터 클리닝 쿡북](https://wikibook.co.kr/data-cleansing/)(원제: Python Data Cleaning Cookbook)의 예제 코드 저장소입니다.
 
 **지저분한 데이터를 찾아 제거하고 핵심적인 통찰을 얻는 현대적 기법과 파이썬 도구**
 
